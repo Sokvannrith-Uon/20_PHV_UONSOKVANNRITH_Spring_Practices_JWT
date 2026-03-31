@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class appUser implements UserDetails {
+public class AppUser implements UserDetails {
     private Long userId;
     private String fullName;
     private String email;
